@@ -1,5 +1,4 @@
 
-
 🛒 E-Commerce Customer Intelligence
 
 «A data analytics project that explores e-commerce transaction data to understand customer purchasing behavior, product performance, sales trends, and business opportunities.»
