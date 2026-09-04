@@ -1,146 +1,119 @@
-
 🛒 E-Commerce Customer Intelligence
 
-«A data analytics project that explores e-commerce transaction data to understand customer purchasing behavior, product performance, sales trends, and business opportunities.»
+📌 About the Project
 
-📌 Project Overview
+I created this project to analyze e-commerce transaction data and understand how an online retail business is performing.
 
-This project analyzes an e-commerce transaction dataset to discover meaningful patterns in customer behavior and business performance.
+Using Python, I explored sales, products, customers, countries, and purchasing patterns to find useful business insights.
 
-The analysis focuses on transforming raw transaction data into useful insights that can support better business decisions.
+🎯 What I Wanted to Find
 
-🎯 Objectives
-
-- Analyze overall sales performance
-- Understand customer purchasing behavior
-- Identify top-performing products
-- Analyze revenue trends over time
-- Identify repeat customers
-- Understand purchasing patterns by country
-- Calculate important business KPIs
-- Generate actionable business insights
+- Overall sales performance
+- Best-selling products
+- Top customers
+- Customer purchase frequency
+- Sales trends by month
+- Sales by country
+- Best sales days and hours
+- Different types of customers
 
 🗂️ Dataset
 
-Dataset: Online Retail Dataset
+I used the Online Retail Dataset from the UCI Machine Learning Repository.
 
-The dataset contains e-commerce transaction records with information such as:
+The dataset contains information about invoices, products, quantities, prices, customers, dates, and countries.
 
-- Invoice Number
-- Stock Code
-- Product Description
-- Quantity
-- Invoice Date
-- Unit Price
-- Customer ID
-- Country
+🛠️ Tools Used
 
-🛠️ Tools & Technologies
+- Python
+- Google Colab
+- Pandas
+- Matplotlib
+- NumPy
 
-- 🐍 Python
-- 🐼 Pandas
-- 🔢 NumPy
-- 📊 Plotly
-- 🗄️ SQL
-- 📓 Google Colab
-- 📁 GitHub
+🧹 Data Cleaning
 
-🔄 Project Workflow
+Before starting the analysis, I:
 
-Raw Dataset
-     ↓
-Data Understanding
-     ↓
-Data Cleaning
-     ↓
-Exploratory Data Analysis
-     ↓
-SQL Analysis
-     ↓
-KPI Calculation
-     ↓
-Data Visualization
-     ↓
-Business Insights
-     ↓
-Final Dashboard
+- Removed duplicate records
+- Removed missing Customer IDs
+- Removed cancelled transactions
+- Removed invalid quantities and prices
+- Converted the invoice date into the correct format
+- Created a new TotalSales column
 
-📊 Key Analysis Areas
+📊 Analysis
 
-1. Sales Analysis
+I created charts and tables for:
 
-- Total revenue
-- Number of transactions
-- Monthly revenue
-- Daily sales trends
+1. Monthly Sales Trend
+2. Top 10 Products by Sales
+3. Top 10 Customers by Spending
+4. Customer Purchase Frequency
+5. Top 10 Countries by Sales
+6. Sales by Day of Week
+7. Sales by Hour
+8. Top Products by Quantity
 
-2. Product Analysis
+👥 RFM Customer Segmentation
 
-- Top-selling products
-- Most valuable products
-- Product quantity analysis
-- Product performance
+I also performed RFM Analysis to understand customer value.
 
-3. Customer Analysis
+RFM stands for:
 
-- Number of customers
-- Customer purchase frequency
-- Repeat customers
-- Customer spending patterns
+- Recency – How recently the customer purchased
+- Frequency – How often the customer purchased
+- Monetary – How much the customer spent
 
-4. Geographic Analysis
+Based on these values, customers were grouped into segments such as:
 
-- Sales by country
-- Number of customers by country
-- Country-wise purchasing behavior
+- Champions
+- Loyal Customers
+- Potential Customers
+- At Risk
+- Lost Customers
 
-5. Business KPIs
+💡 Insights
 
-The project will calculate KPIs such as:
+Through this analysis, I was able to identify:
 
-- Total Revenue
-- Total Orders
-- Total Customers
-- Total Products
-- Average Order Value
-- Repeat Customer Rate
+- Products that generate high sales
+- Customers with high spending
+- Countries with strong sales
+- High-performing sales periods
+- Peak sales days and hours
+- Different customer segments
 
-📈 Visualizations
+🚀 Business Recommendations
 
-The final project will include:
+Based on the analysis, businesses can:
 
-- Monthly Revenue Trend
-- Top Products
-- Revenue by Country
-- Customer Purchase Analysis
-- Order Distribution
-- KPI Summary
+- Focus on high-performing products
+- Plan promotions during strong sales periods
+- Retain high-value customers
+- Re-engage customers who are at risk
+- Use customer segmentation for personalized marketing
 
-💡 Business Insights
+📁 Project Files
 
-The analysis will identify:
+E-Commerce-Customer-Intelligence/
+│
+├── E-Commerce_Customer_Intelligence.ipynb
+└── README.md
 
-- Which products generate the most revenue
-- Which countries contribute the most sales
-- When sales are highest
-- Which customers purchase repeatedly
-- Which areas may have opportunities for business growth
+📚 What I Learned
 
-🚀 Future Improvements
+Through this project, I improved my skills in:
 
-- Build an interactive web dashboard
-- Add customer segmentation
-- Add RFM analysis
-- Add advanced customer lifetime analysis
-- Deploy the dashboard online
+- Python
+- Pandas
+- Data Cleaning
+- Exploratory Data Analysis
+- Data Visualization
+- RFM Analysis
+- Business Insights
 
-👩‍💻 Project Author
-
-Durga Malleswari
-
-Data Analytics Project
-Python | SQL | Excel | Data Visualization
-
----
-
-⭐ If you find this project useful, feel free to explore the analysis and insights.
+👤 Author
+Durga Malleswari 
+Data Analytics Portfolio Project
+Data analysis 
